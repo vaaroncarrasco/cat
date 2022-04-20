@@ -1,0 +1,31 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #f8f9fa;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.canvas {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 80vmin;
+  height: 80vmin;
+}
+
+.catBody {
+  border-radius: 50% 50% 51% 49% / 85% 85% 15% 15%;
+  height: 47vmin;
+  width: 65vmin;
+  background-color: red;
+}
